@@ -1,0 +1,3 @@
+2021-10-04 22:40:38,927 [1] INFO  icrsDM_RecvCet.Forms.IcrsDM - newEvent 패킷을 수신 받았습니다.
+2021-10-04 22:40:38,927 [1] INFO  icrsDM_RecvCet.Forms.IcrsDM - KR.T10107-20211004224031_HRN_21 문서의 수신일자를 업데이트 합니다.
+2021-10-04 22:40:38,927 [1] INFO  icrsDM_RecvCet.Forms.IcrsDM - 재난 통지문을 화면(그리드)에 추가합니다

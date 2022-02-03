@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^0.24.0",
+    "desktop-screenshot": "^0.1.1",
+    "iconv": "^3.0.1",
+    "jschardet": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "screencap": "^1.0.0",
+    "tesseract.js": "^2.1.5"
+  },
+  "name": "captionchecker",
+  "description": "v1.\r v1.2 gif\r v1.3 비교값 변경 : '_'+의무코드+'_'  // 큐?\r v1.4 연속 두 개 처리 - 큐적용",
+  "version": "1.0.0",
+  "main": "captionChecker_v1.4.js",
+  "bin": {
+    "app": "./bin/"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg ."
+  },
+  "author": "",
+  "license": "ISC"
+}
