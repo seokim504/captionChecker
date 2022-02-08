@@ -1,0 +1,23 @@
+2022-01-27 07:56:36.428  INFO 12444 --- [nioEventLoopGroup-4-1] k.i.s.u.r.i.i.c.ClientInboundCallback    : message    : <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>KR.T20999-20220127075903_SHW_127</identifier>
+    <sender>EDBS</sender>
+    <sent>2022-01-27T07:59:10+09:00</sent>
+    <status>Actual</status>
+        <eventCode>
+            <valueName>KR.eventCode</valueName>
+            <value>SHW</value>
+        </eventCode>
+- 방 송 문 안 -          
+○ 코로나19 백신 3차접종 관련 안내입니다. 
+        <parameter>
+            <valueName>BroadcastText.ko-KR</valueName>
+            <value>○ 코로나19 백신 3차접종 관련 안내입니다. 
+○ 코로나19 감염 예방과 중증, 사망 위험을 줄이기 위해 18세 이상은 3차접종이 필요합니다.
+○ 이상 질병관리청에서 알려드렸습니다.  끝. 
+</value>
+        </parameter>
+        <parameter>
+2022-01-27 07:56:36.429  INFO 12444 --- [nioEventLoopGroup-4-1] k.i.s.u.r.f.e.service.EventFileService   : Broadcast Info: RadioBroadcast(code=SHW, kr=null, checked=true)
+
+11111 9988

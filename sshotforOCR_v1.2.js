@@ -2,10 +2,10 @@
 var screenshot = require('desktop-screenshot');
 
 const TelegramBot = require('node-telegram-bot-api');
-// const token = '2075724351:AAFxbBw8BF_hoQqXnkdrqwPeXMU-ksGqGZs';  //  @captionChecker
-// const chatId = '-737668705';  // @단톡방
-const token= '2126794155:AAGp5KFf3Mxz02ms8TFVWS6iKYuBQQiK3JY';    // @test_by_INDIGO
-const chatId = 1656535070; // @test_by_INDIGO
+const token = '2075724351:AAFxbBw8BF_hoQqXnkdrqwPeXMU-ksGqGZs';  //  @captionChecker
+const chatId = '-737668705';  // @단톡방
+// const token= '2126794155:AAGp5KFf3Mxz02ms8TFVWS6iKYuBQQiK3JY';    // @test_by_INDIGO
+// const chatId = 1656535070; // @test_by_INDIGO
 const bot = new TelegramBot(token, {polling: true});
 
 async function sshotForOCR(n) {
@@ -43,5 +43,5 @@ sendPng(3); // 텔레그램전송
 /*       OCR 분석 및 전송       */
 setTimeout(function(){
   sendOCR();
-},4000);
+},8000);
 

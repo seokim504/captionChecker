@@ -2,3 +2,4 @@
 220126 14:58 텍스트 테스트
 220127 11:37 텍스트 테스트
 220127 11:42 OCR분석 실패
+2022-01-27 16:05:37.010  INFO 12444 --- [nioEventLoopGroup-4-1] k.i.s.u.r.i.i.c.ClientInboundCallback    : ########## Event Requst Done ##########

@@ -7,10 +7,10 @@ import base64
 
 import telegram
 
-bot = telegram.Bot(token='2126794155:AAGp5KFf3Mxz02ms8TFVWS6iKYuBQQiK3JY') # test_by_INDIGO
-chat_id = 1656535070 # test_by_INDIGO
-# bot = telegram.Bot(token='2075724351:AAFxbBw8BF_hoQqXnkdrqwPeXMU-ksGqGZs')
-# chat_id = -737668705
+# bot = telegram.Bot(token='2126794155:AAGp5KFf3Mxz02ms8TFVWS6iKYuBQQiK3JY') # test_by_INDIGO
+# chat_id = 1656535070 # test_by_INDIGO
+bot = telegram.Bot(token='2075724351:AAFxbBw8BF_hoQqXnkdrqwPeXMU-ksGqGZs')
+chat_id = -737668705
 
 api_url = 'https://666a7d48980c40908dd9352a32f81d6f.apigw.ntruss.com/custom/v1/12802/b3dca6aaf72e6a1d47cf4ed50e8738a00cca6d778ccbefebbe784df50792312f/infer'
 secret_key = 'YXJUSnNVYlh1U0ZVR0ZjcnRKQ2JMdmp2YWxldEtydG0='
